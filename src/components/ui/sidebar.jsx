@@ -130,7 +130,7 @@ export const SidebarLink = ({
   className,
   ...props
 }) => {
-  const { open, animate } = useSidebar();
+  const { close, animate } = useSidebar();
   return (
     <a
       href={link.href}
